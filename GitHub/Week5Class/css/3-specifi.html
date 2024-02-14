@@ -43,11 +43,15 @@
             background-color: greenyellow;
             color: black;
         }
+        #id1, #id2{
+            background-color: black;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <p class="spec">Paragraph Specificity</p>
-    <div id="id1" class="my-style">
+    <div id="id1" class="my-style" style="background-color: pink;">
         #id1 x .my-style x inline
     </div>
     <div id="id2" class="my-style"> #id2 x .my-style</div>
