@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="./tag.css"/>
+    <style>
+        /* .tag{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* #people{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* #nested{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* #nested > div{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+        /* #nested > div > section{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* #nested section{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* p + ul {
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* ol {
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* p ~ ol{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* [devices]{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* [devices='laptop']{
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* span:nth-child(1){
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        /* section > :nth-child(odd){
+            color: #4a7934;
+            background-color: #0d367d;
+        } */
+
+        section > span:nth-of-type(2){
+            color: #4a7934;
+            background-color: #0d367d;
+        }
+    </style>
+</head>
+<body>
+    <div class="tag">
+        <div class="tag">
+            <p class="tag"></p>
+            <ul class="tag" devices="laptop">
+                <li>HP-101</li>
+                <li>Asus</li>
+            </ul>
+            <ul class="tag" devices="mobile">
+                <li>Iphone</li>
+                <li>Samsun</li>
+            </ul>
+            <ol id="people" class="tag">
+                <li>Jhon</li>
+                <li>Peter</li>
+                <li>Mary</li>
+            </ol>
+            <div id="nested" class="tag">
+                <div class="tag">
+                    <section class="tag">
+                        <span class="tag">1</span>
+                        <p class="tag">2</p>
+                        <span class="tag">3</span>
+                    </section>
+                </div>
+            </div>
+
+    
+</body>
+</html>

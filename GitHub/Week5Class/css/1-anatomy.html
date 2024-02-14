@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Anatomy</title>
+    <style>
+        .selector{
+            background-color: gold;
+            color: #eee;
+            font-size: 70px;
+            padding: 10px;
+            text-align: center;
+            border: solid 5px blue; /*Shorthand property */
+            border-radius: 10px;
+            width: calc(100% - 90px); /*I can calculate the space tha my box will use */
+        }
+        .selector:hover{
+            background-color: black;
+        }
+        .selector::first-letter{
+            font-size: 100px;
+            color: brown;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="selector" style="background-color:#333">My Content</div>
+</body>
+</html>
