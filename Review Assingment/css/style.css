@@ -8,7 +8,7 @@ body{
 }
 
 .header{
-    background-color: rgba(236,136, 136,0.497);
+    background-color: rgba(236, 136, 136, 0.497);
     border-bottom: solid 5px #005f7b;
     height: 80px;
     box-sizing: content-box;
@@ -42,11 +42,11 @@ body{
 .menu a{
     text-decoration: none;
     color: #555;
-    font-size: 18pxp;
+    font-size: 18px;
     padding: 15px;
 }
 
-.aut{
+.auth {
     float: right;
     height: 55px;
     background-color: #555;
@@ -70,7 +70,7 @@ body{
     margin: 0;
 }
 
-.highlight {
+.highlight{
     background-color: #ff1238;
     width: 120px;
     display: inline-block;
@@ -82,9 +82,9 @@ body{
     padding: 10px;
 }
 
-.item{
-    width: 40%;
-    margin: 20px;
+.item {
+    width: 49%;
+    margin-bottom: 20px;
     padding: 10px;
     background-color: #fff;
     display: inline-block;
@@ -100,12 +100,12 @@ body{
     background-color: #f8f9fa;
     margin-left: 20px;
     display: inline-block;
-    padding: 10%;
+    padding: 10px;
     position: absolute;
     top: 100px;
 }
 
-.comments{
+.comment{
     margin-bottom: 10px;
     padding: 10px;
     background-color: #fff;
@@ -116,10 +116,10 @@ body{
 .comment p,
 .item h4,
 .item p {
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
-.form{
+form {
     width: 60%;
     margin: auto;
     background-color: rgba(222, 184, 135, 0.517);
@@ -132,19 +132,19 @@ table{
     width: 100%;
 }
 
-.left-td{
+.left-td {
     text-align: right;
     padding: 10px;
 }
 
-.right-td{
+.right-td {
     text-align: left;
     padding: 10px;
 }
 
 [type="reset"]{
     background-color: #ff1238;
-    color: #eee;
+    color:#eee;
     border-radius: 20px;
     padding: 10px 20px;
 }
@@ -154,4 +154,8 @@ table{
     color: #eee;
     border-radius: 20px;
     padding: 10px 20px;
+}
+
+.contact-demand{
+    margin-left: 20px;
 }
