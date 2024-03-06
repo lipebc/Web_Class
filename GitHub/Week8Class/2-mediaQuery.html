@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: 40px;
+            margin: 20px;
+            padding: 20px;
+            background-color: orange;
+            border: solid 5px;
+            display: none;
+        }
+        @media (max-width: 600px){
+            .very-small{
+                display: block;
+            }
+        }
+
+        @media (max-width: 1000px),(orientation: portrait){
+            .small-portrait{
+                display: block;
+            }
+        }
+
+        @media (min-width: 500px) and (max-width: 1000px){
+            .interval{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="very-small">Very Small</div>
+    <div class="small-portrait">Small Portrait</div>
+    <div class="interval">Interval</div>
+</body>
+</html>
