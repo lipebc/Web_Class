@@ -1,0 +1,138 @@
+:root {
+  --pink900: #b3535d;
+  --pink800: #c66b74;
+  --pink700: #d9838c;
+  --pink600: #ec9ba3;
+  --pink500: #ffb3ba;
+
+  --soft900: #ba9194;
+  --soft800: #ccacaf;
+  --soft700: #ddc8c9;
+  --soft600: #eee3e4;
+  --white: #ffffff;
+}
+
+/* font */
+body {
+  font-family: cursive;
+}
+
+
+/* style for h1 inside about-content */
+.about-content h1 {
+  color: var(--pink900);
+  padding-left: 50px;
+}
+
+.about-content h2 {
+  color: var(--pink800);
+  padding-left: 10px;
+}
+
+/* style for the p insite about-content */
+.about-content p {
+  color: var(--soft900);
+}
+
+/* style the list of selling-points */
+.selling-points ul {
+  list-style-type: circle; /* Estilo do marcador da lista */
+}
+
+/* wrappe all inside the body */
+.wrapper {
+  display: flex;
+}
+
+/* sidebar */
+#sideBar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* make everything inside content flex and responsive */
+.content {
+  flex: 1; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+/* make everything inside contact-info flex and responsive */
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.contact-info p {
+  color: var(--soft900);
+}
+
+/* make everything inside contact-info flex and responsive */
+.selling-points {
+  flex: 1;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* h2 inside the selling-points */
+.selling-points h2 {
+  color: var(--pink900);
+}
+
+/* ul inside the selling-points */
+.selling-points ul {
+  color: var(--soft900);
+  margin-top: 38px;
+}
+
+/* make everything inside selling-points flex and responsive */
+.selling-points {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* make everything inside mission flex and responsive */
+.mission {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.mission p{
+  padding: 37px;
+  margin-top: -18px;
+}
+
+/* make everything inside store-history flex and responsive */
+.store-history{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+/* styling the p inside store-history */
+.store-history p {
+  padding: 37px;
+  margin-top: -18px;
+}

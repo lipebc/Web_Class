@@ -1,0 +1,12 @@
+/* Given style to the img inside banner */
+.banner img {
+    width: 100%;
+    height: auto;
+    padding-left: 5px;
+  }
+
+  /* give style to the banner margin */
+.banner {
+    margin-top: 10px;
+  }
+  

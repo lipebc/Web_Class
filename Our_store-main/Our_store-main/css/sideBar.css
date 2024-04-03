@@ -1,0 +1,31 @@
+#sideBar {
+  width: 15%;
+  padding: 25px;
+  border: 5px solid #eee3e4;
+  height: full;
+  font-family: italics;
+  background-color: #eee3e4;
+  font-family: cursive;
+  text-align: center;
+  color: #d9838c;
+  font-size: 20px;
+}
+
+#sideBar button {
+  background-color: #b3535d;
+  color: #ffff;
+  border: 1px solid #b3535d;
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+  font-family: cursive;
+}
+
+.sidebar_buttons {
+  margin-top: -15%;
+}
+
+.Logo {
+  height: 160px;
+}

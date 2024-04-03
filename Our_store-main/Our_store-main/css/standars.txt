@@ -1,0 +1,9 @@
+Colors:
+
+red = "e70d0d"
+orange = "f5812e"
+yellow = "f1d35a"
+green = "43b366"
+white = "ffffff"
+
+font-family: cursive;

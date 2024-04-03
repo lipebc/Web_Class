@@ -1,0 +1,62 @@
+:root {
+    --pink900: #b3535d;
+    --pink800: #c66b74;
+    --pink700: #d9838c;
+    --pink600: #ec9ba3;
+    --pink500: #ffb3ba;
+  
+    --soft900: #ba9194;
+    --soft800: #ccacaf;
+    --soft700: #ddc8c9;
+    --soft600: #eee3e4;
+    --white: #ffffff;
+  }
+
+  /* make footer flexibel and use all the space he has */
+  .footer {
+    flex: 1; 
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
+  }
+  
+  /* color of h3 inside footer */
+  .footer h3 {
+    color: var(--pink900); /* Cor do título "Follow Us" */
+    padding-left: 50px;
+  }
+
+  /* color of the p inside footer */
+  .footer p {
+    color: var(--soft900);
+  }
+
+
+/* size of the img inside item */
+.item img{
+  width: 30%;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+/* style the item class */
+.item {
+  margin-bottom: 20px;
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+}
+
+/* size of p inside item */
+.item p {
+  font-size: 10px;
+}
+
+hr {
+    width: 80%; /* Need to be fixed */
+
+}
